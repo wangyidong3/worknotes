@@ -1,0 +1,7 @@
+Sfm may be important as jetson support this quite well. check the visionWork folder
+
+
+https://github.com/lmb-freiburg/demon  good recent project
+
+related paper: https://lmb.informatik.uni-freiburg.de/people/ummenhof/depthmotionnet/
+

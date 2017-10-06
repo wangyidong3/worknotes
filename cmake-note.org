@@ -13,3 +13,5 @@ MESSAGE(WARNING "include dirs ${OpenCV_INCLUDE_DIRS}")
 MESSAGE(WARNING "libs ${OpenCV_LIBS}")
 
 check here for detail : /home/benwang/CLionProjects/jetson-cpp-opencv/CMakeLists.txt
+
+

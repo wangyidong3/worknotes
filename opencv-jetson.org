@@ -1,0 +1,10 @@
+remember to install 3.3.0 instead of 2.4.13
+
+in the cmakelist file, this method can solve the issue of opencv version.
+and easy to switch from pc-host to jetson
+
+
+find_package( OpenCV 3.2 REQUIRED )
+#find_package( OpenCV 3.3 REQUIRED )
+
+
