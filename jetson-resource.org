@@ -1,0 +1,21 @@
+
+very good resource link:
+
+https://elinux.org/Jetson_TX2
+
+
+important concetp of opencv version on jetson, and some great opinion for the choice:
+http://www.jetsonhacks.com/2015/06/14/ros-opencv-and-opencv4tegra-on-the-nvidia-jetson-tk1/
+
+
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619026.45.png ./ticket_1.png
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619024.94.png ./ticket_2.png
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619018.23.png ./ticket_3.png
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619019.02.png ./ticket_4.png
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619020.49.png ./ticket_5.png
+
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619026.45.png ./ticket_1.png
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619024.94.png ./ticket_2.png
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619018.23.png ./ticket_3.png
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619019.02.png ./ticket_4.png
+scp benwang@odin:/home/benwang/code/c3_prototyping/c3.scan.shipside.new.app/test/2017-06-28T15:03:34+1200/1498619020.49.png ./ticket_5.png

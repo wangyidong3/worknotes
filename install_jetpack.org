@@ -1,0 +1,33 @@
+At last, I changed the host to nuc as a real pc host!!!!!
+
+Do not try vm, please!! life is too short for this!
+Use the installed Nuc and bring them home, use your own network. Just one hour and all things can be done automatically.
+
+
+Very important tutorial:
+https://www.youtube.com/watch?v=D7lkth34rgM
+http://www.jetsonhacks.com/2017/03/21/jetpack-3-0-nvidia-jetson-tx2-development-kit/
+
+
+The best solution is to install the jetpack on a real laptop!
+
+1. I currently use ubuntu14.04(not necessary to try new one, make it easy!!!) on a virtualbox as host for installing jetpack on jetson tx2
+2. so, 
+   a. install ubuntu14 as least 50G(jetpack need a lot of space!!!) , if your virtualbox space is not enough, check here:
++++++++++  super good instruction for resize the hard disk of my Vbox guest os +++++++++++++++:Caution:  the last step to resize/move the gparted to extend the last partition in this article is "enlarge your root file system." Do it!!!
+https://www.linuxbabe.com/virtualbox/how-to-increase-virtualbox-disk-size-for-dynamically-allocated-disks
+http://www.redstk.com/resizing-a-virtualbox-5-1-4-hdd-vdi-file/
+   b. download: https://developer.nvidia.com/embedded/dlc/jetpack-l4t-3_1
+3. run the script and follow the instruction of the link above(Very important tutorial)
+4. as for vm, it's common that vm doesn't display the usb device from the host pc. Check here: 
+   a. install extension pack, https://www.virtualbox.org/wiki/Downloads
+   b. add user to the new group: https://stackoverflow.com/questions/20021300/usb-devices-are-not-recognized-in-virtualbox-linux-host
+   c. add a new usb filter for Nvidia's micro-usb VirtualBox->Device->USB->filter
+   d. choose usb 2.0 (ECHI): shutdown the vm and Device->USB->xxxx
+5. Sometimes, you may need to uninstall a little (such as delete by mistake): https://devtalk.nvidia.com/default/topic/1000253/jetpack-not-able-to-load-on-tx1/
+
+
+
+
+
+
