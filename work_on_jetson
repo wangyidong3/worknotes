@@ -14,3 +14,249 @@ good matches size:44
 Test the other time: 0.009367 seconds
 44 44
 All the time: 1.44418 seconds
+
+======================================================================
+
+nvidia@tegra-ubuntu:~/code/c3.scan.shipside$ python counter.py 40004370
+C3 Shipside Tally
+global logging level:  0
+Initialising capture engine
+'SPACE' to start capture, 'ENTER' to test,  'q' to quit, 'r' to reset cameras & quit
+Bluetooth Controller - Accepted connection from 00:10:40:B2:BF:67
+Attempting connection to camera
+Image sharpness threshold: 92.00
+Connected to camera
+Press trigger down to scan the logs, 'SPACE' to complete capture, 'ESC' to abort capture, 'q' to quit, 'r' to reset cameras & quit
+Bluetooth Controller - bad json in message
+trigger down
+start counting log from the image dfff47ff-bde3-4108-ae7d-6aaf7166802b
+<type 'numpy.ndarray'>
+45
+[[255  43  57  57]
+ [379 261  37  37]
+ [533 253  58  58]
+ [233 358  48  48]
+ [492  43  55  55]
+ [389  54  51  51]
+ [294 234  44  44]
+ [412 248  55  55]
+ [307  42  81  81]
+ [223 133  57  57]
+ [427 147  57  57]
+ [365 407  49  49]
+ [395 352  68  68]
+ [491 142  68  68]
+ [332 349  62  62]
+ [515 344  67  67]
+ [274 337  62  62]
+ [315 108  64  64]
+ [457 359  64  64]
+ [207 269  53  53]
+ [240 228  59  59]
+ [274 155  54  54]
+ [374 104  57  57]
+ [329 233  58  58]
+ [285 405  86  86]
+ [249 284  62  62]
+ [306 287  64  64]
+ [459 278  84  84]
+ [364 293  67  67]
+ [425  69  84  84]
+ [198  79  68  68]
+ [377 164  52  52]
+ [243 188  45  45]
+ [318 173  67  67]
+ [164 188  88  88]
+ [258  92  58  58]
+ [468 195  35  35]
+ [429 322  37  37]
+ [281 204  39  39]
+ [421 203  43  43]
+ [378 211  50  50]
+ [215 322  47  47]
+ [484 238  22  22]
+ [526 239  22  22]
+ [459 217  63  63]]
+('detectMultiScale time', 8.750042915344238)
+('FastNMS time', 4.8160552978515625e-05)
+('ClumpFilter time', 2.384185791015625e-05)
+('nms time', 0.05824017524719238)
+('clump time', 0.005612850189208984)
+44 logs have been detected 
+('scale time', 0.0017659664154052734)
+count_log time:8.8311290741
+{0: [295, 338, 158, 159], 1: [513, 729, 155, 155], 2: [765, 124, 151, 151], 3: [826, 500, 152, 152], 4: [553, 75, 146, 146], 5: [884, 255, 123, 123], 6: [356, 142, 123, 122], 7: [711, 634, 123, 122], 8: [927, 619, 121, 121], 9: [572, 311, 121, 121], 10: [655, 527, 121, 121], 11: [551, 517, 115, 115], 12: [823, 646, 115, 116], 13: [567, 194, 115, 115], 14: [448, 511, 112, 112], 15: [598, 628, 111, 112], 16: [493, 607, 112, 111], 17: [432, 410, 106, 107], 18: [464, 165, 105, 105], 19: [592, 419, 105, 105], 20: [960, 455, 104, 105], 21: [769, 264, 102, 103], 22: [401, 239, 103, 103], 23: [459, 77, 103, 103], 24: [673, 187, 103, 103], 25: [742, 446, 99, 99], 26: [886, 77, 99, 99], 27: [493, 279, 97, 97], 28: [372, 484, 96, 96], 29: [679, 295, 93, 94], 30: [700, 97, 92, 92], 31: [680, 380, 91, 90], 32: [657, 733, 88, 88], 33: [419, 644, 87, 87], 34: [387, 580, 85, 84], 35: [437, 338, 81, 81], 36: [529, 421, 79, 79], 37: [758, 365, 77, 78], 38: [506, 367, 70, 70], 39: [682, 470, 67, 66], 40: [772, 580, 67, 66], 41: [826, 390, 114, 114], 42: [843, 351, 63, 63], 43: [947, 430, 40, 40]}
+Bluetooth Controller - bad json in message
+Press trigger down to scan the tickets, 'g' to show the image, 'q' to quit, 'r' to reset cameras & quit
+find_dmtx 0 in 0.289798974991 second
+find_dmtx 0 in 0.409853219986 second
+find_dmtx 1 in 0.334395170212 second
+find_dmtx 2 in 0.459042072296 second
+read time 0.515773057938
+('getSurf', 0.12222695350646973)
+('knnMatch', 0.14861297607421875)
+('findHomography', 0.004142045974731445)
+Transforming code: S7002967
+Check transformed points: [[789, 706], [816, 693], [801, 665], [773, 677]]
+check time: 0.000189065933228 
+Transforming code: S7002984
+Check transformed points: [[1096, 322], [1123, 317], [1117, 291], [1090, 294]]
+Wrong size: 768.510247167 779.016046048 832.406150866 823.005467783 773.342097651 805.59667328
+find_dmtx 0 in 0.289663076401 second
+find_dmtx 0 in 0.296766042709 second
+find_dmtx 1 in 0.289520025253 second
+find_dmtx 1 in 0.418991088867 second
+read time 0.473576784134
+('getSurf', 0.12727093696594238)
+('knnMatch', 0.11978697776794434)
+('findHomography', 0.003289937973022461)
+Transforming code: S7002974
+Check transformed points: [[957, 736], [987, 737], [985, 706], [953, 705]]
+check time: 0.0001380443573 
+transform_tickets_coords time: 0.285148859024
+imwrite time: 0.0139031410217
+find_dmtx 1 in 0.223363876343 second
+find_dmtx 1 in 0.364414930344 second
+find_dmtx 2 in 0.354925870895 second
+find_dmtx 1 in 0.289974927902 second
+read time 0.46456193924
+('getSurf', 0.16556715965270996)
+('knnMatch', 0.1280519962310791)
+('findHomography', 0.004405975341796875)
+Transforming code: S7002967
+Check transformed points: [[792, 716], [821, 704], [810, 677], [782, 689]]
+check time: 0.000139951705933 
+Transforming code: S7002968
+Check transformed points: [[825, 436], [853, 430], [848, 403], [818, 409]]
+check time: 8.82148742676e-05 
+transform_tickets_coords time: 0.321600198746
+imwrite time: 0.0146329402924
+find_dmtx 1 in 0.288269042969 second
+find_dmtx 1 in 0.407505989075 second
+find_dmtx 2 in 0.393793821335 second
+find_dmtx 2 in 0.384104967117 second
+read time 0.541654109955
+('getSurf', 0.13833093643188477)
+('knnMatch', 0.12480592727661133)
+('findHomography', 0.004751920700073242)
+Transforming code: S7002967
+Check transformed points: [[781, 732], [808, 721], [797, 695], [768, 707]]
+check time: 0.000137090682983 
+Transforming code: S7002971
+Check transformed points: [[855, 552], [859, 583], [893, 580], [890, 548]]
+check time: 8.39233398438e-05 
+transform_tickets_coords time: 0.297327041626
+imwrite time: 0.0140540599823
+find_dmtx 0 in 0.300181865692 second
+find_dmtx 1 in 0.306267976761 second
+find_dmtx 2 in 0.428359031677 second
+find_dmtx 1 in 0.315030097961 second
+read time 0.493428945541
+('getSurf', 0.1268000602722168)
+('knnMatch', 0.12807488441467285)
+('findHomography', 0.0039119720458984375)
+Transforming code: S7002977
+Check transformed points: [[954, 409], [980, 423], [993, 402], [970, 387]]
+check time: 0.0001380443573 
+Transforming code: S7002971
+Check transformed points: [[847, 589], [854, 623], [889, 620], [882, 586]]
+check time: 8.41617584229e-05 
+transform_tickets_coords time: 0.287405014038
+imwrite time: 0.0140149593353
+find_dmtx 2 in 0.36962890625 second
+find_dmtx 2 in 0.287431001663 second
+find_dmtx 1 in 0.450503110886 second
+find_dmtx 5 in 0.47567486763 second
+read time 0.585046052933
+('getSurf', 0.18247413635253906)
+('knnMatch', 0.18395304679870605)
+('findHomography', 0.00657200813293457)
+Transforming code: S7002967
+Check transformed points: [[786, 778], [810, 766], [797, 740], [774, 753]]
+out of range [778, 766, 740, 753]
+find_dmtx 4 in 0.380160808563 second
+find_dmtx 3 in 0.340355157852 second
+find_dmtx 4 in 0.275469064713 second
+find_dmtx 2 in 0.497958183289 second
+read time 0.604511022568
+('getSurf', 0.16642498970031738)
+('knnMatch', 0.18267107009887695)
+('findHomography', 0.005211830139160156)
+Transforming code: S7002989
+Check transformed points: [[1179, 988], [1208, 990], [1208, 962], [1179, 960]]
+out of range [1179, 1208, 1208, 1179]
+find_dmtx 1 in 0.377979040146 second
+find_dmtx 1 in 0.383813142776 second
+find_dmtx 1 in 0.37918305397 second
+find_dmtx 0 in 0.33095407486 second
+read time 0.493110895157
+('getSurf', 0.16093993186950684)
+('knnMatch', 0.16639089584350586)
+('findHomography', 0.00518798828125)
+Transforming code: S7002961
+Check transformed points: [[673, 541], [697, 553], [709, 528], [684, 518]]
+check time: 0.00017786026001 
+transform_tickets_coords time: 0.368484973907
+imwrite time: 0.0167400836945
+find_dmtx 1 in 0.293431043625 second
+find_dmtx 2 in 0.348632097244 second
+find_dmtx 0 in 0.33221411705 second
+find_dmtx 1 in 0.338194847107 second
+read time 0.510417938232
+('getSurf', 0.1448531150817871)
+('knnMatch', 0.1327810287475586)
+('findHomography', 0.003999948501586914)
+Transforming code: S7002990
+Check transformed points: [[1280, 437], [1306, 435], [1303, 408], [1277, 412]]
+out of range [1280, 1306, 1303, 1277]
+find_dmtx 0 in 0.325396060944 second
+find_dmtx 1 in 0.336420059204 second
+find_dmtx 1 in 0.335362911224 second
+find_dmtx 1 in 0.302153110504 second
+read time 0.481313943863
+('getSurf', 0.1558818817138672)
+('knnMatch', 0.12962603569030762)
+('findHomography', 0.003795146942138672)
+Transforming code: S7002968
+Check transformed points: [[799, 527], [826, 523], [820, 499], [794, 501]]
+check time: 0.000126838684082 
+transform_tickets_coords time: 0.316312074661
+imwrite time: 0.0169088840485
+++++++ two logs connect to one ticket +++++
+Code - S7002961
+++++++ update distance ++++++ distance - old:57.2712842531, new40.0
+unmatched tickets[1]:
+drawing from transformed_tickets S7002974 [[957 736]
+ [987 737]
+ [985 706]
+ [953 705]] 
+drawing from transformed_tickets S7002967 [[781 732]
+ [808 721]
+ [797 695]
+ [768 707]] 
+drawing from transformed_tickets S7002977 [[954 409]
+ [980 423]
+ [993 402]
+ [970 387]] 
+drawing from transformed_tickets S7002971 [[847 589]
+ [854 623]
+ [889 620]
+ [882 586]] 
+drawing from transformed_tickets S7002961 [[673 541]
+ [697 553]
+ [709 528]
+ [684 518]] 
+drawing from transformed_tickets S7002968 [[799 527]
+ [826 523]
+ [820 499]
+ [794 501]] 
+6 Tickests have been detected in all
+44 Logs have been detected in all
+5 logs are matched with the tickets
+39 logs cannot find related tickets
+1 tickets cannot find related logs
+Perhaps, we missed 39 tickets?
+nvidia@tegra-ubuntu:~/code/c3.scan.shipside$ 
+
+
+
