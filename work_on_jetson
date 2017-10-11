@@ -1,0 +1,16 @@
+nvidia@tegra-ubuntu:~/code/cpptest$ cp Makefile-jetson Makefile
+nvidia@tegra-ubuntu:~/code/cpptest$ make
+g++ -I/usr/include/python2.7 -I/usr/include -fPIC -c `pkg-config --cflags opencv` -std=c++11 lib_gpu_surf.cpp
+g++ -shared -Wl,--export-dynamic lib_gpu_surf.o  `pkg-config --libs opencv` -L/usr/share/lib -lboost_python -L/usr/lib/python2.7/config -lpython2.7 -o lib_gpu_surf.so
+nvidia@tegra-ubuntu:~/code/cpptest$ python run_surf.py 
+Test the upload time: 0.844651  0.00122  0.001639  0.001709  0.001587  0.001312 seconds
+Device 0:  "NVIDIA Tegra X2"  7851Mb, sm_62, Driver/Runtime ver.8.0/8.0
+Test the feature time: 0.512749 seconds
+FOUND 1796 keypoints on first image
+FOUND 4503 keypoints on second image
+Test the knnMatch time: 0.052838 seconds
+Test the download time: 0.017014 seconds
+good matches size:44
+Test the other time: 0.009367 seconds
+44 44
+All the time: 1.44418 seconds
