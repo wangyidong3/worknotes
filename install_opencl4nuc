@@ -1,0 +1,3 @@
+main: https://askubuntu.com/questions/850281/opencl-on-ubuntu-16-04-intel-sandy-bridge-cpu
+intel sdk: https://software.intel.com/en-us/articles/opencl-drivers#latest_linux_SDK_release
+install script :   https://software.intel.com/en-us/articles/sdk-for-opencl-gsg
