@@ -1,10 +1,9 @@
 
 ===== when compile error occurs, use make VERBOSE=1 to see detail! =====
 
-
 https://www.learnopencv.com/install-opencv3-on-ubuntu/     <<<<<<<
 
-sudo apt-get install -y build-essential checkinstall cmake pkg-config yasm gfortran git libjpeg8-dev libjasper-dev libpng12-dev
+sudo apt-get install -y build-essential checkinstall cmake pkg-config yasm gfortran git libjpeg8-dev libjasper-dev libpng12-dev python2.7-dev python-pip
 
 
 # If you are using Ubuntu 14.04
@@ -13,6 +12,7 @@ sudo apt-get install libtiff4-dev
 sudo apt-get install libtiff5-dev
 
 sudo apt-get install -y libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine2-dev libv4l-dev libgstreamer0.10-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-base0.10-dev libqt4-dev libgtk2.0-dev libtbb-dev libatlas-base-dev libfaac-dev libmp3lame-dev libtheora-dev libvorbis-dev libxvidcore-dev libopencore-amrnb-dev libopencore-amrwb-dev x264 v4l-utils libprotobuf-dev protobuf-compiler libgoogle-glog-dev libgflags-dev libgphoto2-dev libeigen3-dev libhdf5-dev doxygen build-essential cmake pkg-config libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libgtk-3-dev libatlas-base-dev gfortran
+sudo -H pip2 install -U pip numpy
 
 
 git clone https://github.com/opencv/opencv.git
