@@ -78,3 +78,11 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D BUILD_EXAMPLES=ON ..
     
     
+=======================
+In case, python has malloc issues: https://github.com/tensorflow/tensorflow/issues/6968
+
+sudo apt-get install libtcmalloc-minimal4
+export LD_PRELOAD="/usr/lib/libtcmalloc_minimal.so.4"
+or
+sudo apt-get install libopenblas-dev 
+pip install --no-binary=:all: numpy
