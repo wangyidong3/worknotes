@@ -1,3 +1,11 @@
+https://wiki.tiker.net/OpenCLHowTo
+two methods to install intel driver for nuc:
+1. beignet
+
+2. 
 main: https://askubuntu.com/questions/850281/opencl-on-ubuntu-16-04-intel-sandy-bridge-cpu
 intel sdk: https://software.intel.com/en-us/articles/opencl-drivers#latest_linux_SDK_release
 install script :   https://software.intel.com/en-us/articles/sdk-for-opencl-gsg
+
+use clinfo or tool_master to check the installation: https://wiki.tiker.net/OpenCLHowTo
+sudo intel_gpu_top to monitor intel gpu usage
