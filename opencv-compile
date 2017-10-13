@@ -77,6 +77,16 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
     -D BUILD_EXAMPLES=ON ..
     
+ =====python check opencl========== 
+ https://stackoverflow.com/questions/42680645/opencv-3-2-0-windows-opencl-shows-devices-in-c-but-not-in-python
+ https://github.com/intel-iot-devkit/Video-Analytics-OpenCV/ <<<<<< very good sample code for test
+import cv2        
+
+print(cv2.ocl.haveOpenCL())
+cv2.ocl.setUseOpenCL(True)
+print(cv2.ocl.useOpenCL())    
+print(cv2.ocl.haveAmdBlas())
+print(cv2.ocl.haveAmdFft())
     
 =======================
 In case, python has malloc issues: https://github.com/tensorflow/tensorflow/issues/6968
