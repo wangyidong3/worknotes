@@ -9,3 +9,6 @@ install script :   https://software.intel.com/en-us/articles/sdk-for-opencl-gsg
 
 use clinfo or tool_master to check the installation: https://wiki.tiker.net/OpenCLHowTo
 sudo intel_gpu_top to monitor intel gpu usage
+
+to understand intel_gpu_top manual:
+https://01.org/sites/default/files/documentation/intel-gfx-prm-osrc-bdw-vol01-preface_1.pdf
