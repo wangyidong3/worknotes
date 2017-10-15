@@ -96,3 +96,18 @@ export LD_PRELOAD="/usr/lib/libtcmalloc_minimal.so.4"
 or
 sudo apt-get install libopenblas-dev 
 pip install --no-binary=:all: numpy
+
+
+=========================sometimes for debug , can compile without examples ===============
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
+    -D CMAKE_INSTALL_PREFIX=/usr/local \
+    -D INSTALL_PYTHON_EXAMPLES=OFF \
+    -D INSTALL_C_EXAMPLES=OFF \
+    -D INSTALL_PYTHON_EXAMPLES=OFF \
+    -D WITH_V4L=ON \
+    -D WITH_EIGEN=ON \
+    -D WITH_IPP=ON \
+    -D BUILD_TIFF=ON \
+    -DWITH_OPENCL=ON \
+    -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
+    -D BUILD_EXAMPLES=ON ..
