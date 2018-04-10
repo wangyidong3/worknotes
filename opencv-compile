@@ -79,6 +79,10 @@ to support CUDA:
 1. use gcc-5.4 (I used 4.9 on 26.9.2017) <<<< cuda8.0 patch can support 5.4!
 2. https://stackoverflow.com/questions/45616432/opencv-cant-make-with-vtk-on
 3. https://github.com/opencv/opencv/issues/8704  <<<<< can be important to support c++11 for cuda, should  remove the "
+CMAKE_CXX_FLAGS:STRING=-std=c++11
+CUDA_NVCC_FLAGS:STRING=-D_FORCE_INLINES;-std=c++11;--expt-relaxed-constexpr
+CUDA_PROPAGATE_HOST_FLAGS:BOOL=OFF
+
 
 ------------------------- opencl on nuc -----------------
 
